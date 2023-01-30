@@ -6,13 +6,12 @@
     android:layout_height="match_parent">
 
     <ImageView
-        android:id="@+id/splash_logo"
+        android:id="@+id/detailprospect"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/bild_03_01_23_um_09_48" />
-
+        app:srcCompat="@drawable/reweprospekt" />
 </androidx.constraintlayout.widget.ConstraintLayout>

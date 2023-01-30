@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "name": "Seite1",
+    "image": "https://public.syntax-institut.de/apps/batch4/Frederic/pics/ReweProspektSeite1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Seite2",
+    "image": "https://public.syntax-institut.de/apps/batch4/Frederic/pics/ReweProspektSeite2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Seite3",
+    "image": "https://public.syntax-institut.de/apps/batch4/Frederic/pics/ReweProspektSeite3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Seite4",
+    "image": "https://public.syntax-institut.de/apps/batch4/Frederic/pics/ReweProspektSeite4.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Seite5",
+    "image": "https://public.syntax-institut.de/apps/batch4/Frederic/pics/ReweProspektSeite5.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Seite6",
+    "image": "https://public.syntax-institut.de/apps/batch4/Frederic/pics/ReweProspektSeite6.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Seite7",
+    "image": "https://public.syntax-institut.de/apps/batch4/Frederic/pics/ReweProspektSeite7.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Seite8",
+    "image": "https://public.syntax-institut.de/apps/batch4/Frederic/pics/ReweProspektSeite8.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Seite9",
+    "image": "https://public.syntax-institut.de/apps/batch4/Frederic/pics/ReweProspektSeite9.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Seite10",
+    "image": "https://public.syntax-institut.de/apps/batch4/Frederic/pics/ReweProspektSeite10.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Seite11",
+    "image": "https://public.syntax-institut.de/apps/batch4/Frederic/pics/ReweProspektSeite11.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Seite12",
+    "image": "https://public.syntax-institut.de/apps/batch4/Frederic/pics/ReweProspektSeite12.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Seite13",
+    "image": "https://public.syntax-institut.de/apps/batch4/Frederic/pics/ReweProspektSeite13.jpg"
+  }
+]
