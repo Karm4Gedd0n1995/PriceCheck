@@ -7,11 +7,12 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.ViewModel
+import androidx.navigation.fragment.findNavController
 import com.example.pricecheck.adapter.ProspektAdapter
 import com.example.pricecheck.data.Repository
 import com.example.pricecheck.databinding.FragmentMainBinding
 
-class HomeFragment: Fragment() {
+class MainFragment: Fragment() {
 
     private val viewmodel: ViewModel by viewModels()
 
@@ -30,5 +31,10 @@ class HomeFragment: Fragment() {
         val prospects = Repository().loadProspects()
 
         binding.prospectrecycler.adapter = ProspektAdapter(requireContext(), prospects)
+        binding.favouritebutton.setOnClickListener {
+            findNavController().navigate(MainFragmentDirections.actionHomeFragmentToFavouriteFragment())
+        }
+
+
     }
 }

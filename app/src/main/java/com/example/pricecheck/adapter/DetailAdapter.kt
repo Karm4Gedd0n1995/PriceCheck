@@ -4,7 +4,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
+import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import coil.load
 import com.example.pricecheck.R
 import com.example.pricecheck.data.model.Prospect
 import com.example.pricecheck.data.model.ProspectApi
@@ -17,6 +19,7 @@ class DetailAdapter() : RecyclerView.Adapter<DetailAdapter.ItemViewHolder>() {
     // der ViewHolder weiß welche Teile des Layouts beim Recycling angepasst werden
     class ItemViewHolder(private val view: View) : RecyclerView.ViewHolder(view) {
         val prospectView: ImageView = view.findViewById(R.id.detailprospect)
+        val seiteview: TextView = view.findViewById(R.id.seitetext)
     }
 
     fun submitlist(newlist: List<ProspectApi>){
@@ -36,7 +39,8 @@ class DetailAdapter() : RecyclerView.Adapter<DetailAdapter.ItemViewHolder>() {
     override fun onBindViewHolder(holder: ItemViewHolder, position: Int) {
 
         val prospects = dataset[position]
-        holder.prospectView.setImageResource(prospects.imageid)
+        holder.prospectView.load(prospects.image)
+        holder.seiteview.text = prospects.name
     }
 
     override fun getItemCount(): Int {

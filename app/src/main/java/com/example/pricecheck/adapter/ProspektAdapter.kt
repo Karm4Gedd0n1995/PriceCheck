@@ -10,7 +10,7 @@ import androidx.navigation.findNavController
 import androidx.recyclerview.widget.RecyclerView
 import com.example.pricecheck.R
 import com.example.pricecheck.data.model.Prospect
-import com.example.pricecheck.ui.HomeFragmentDirections
+import com.example.pricecheck.ui.MainFragmentDirections
 
 class ProspektAdapter(
     private val context: Context,
@@ -41,7 +41,7 @@ class ProspektAdapter(
         holder.prospectname.text = prospect.name
         holder.prospectimage.setImageResource(prospect.imageId)
         holder.prospectimage.setOnClickListener {
-            holder.itemView.findNavController().navigate(HomeFragmentDirections.actionHomeFragmentToProspectFragment())
+            holder.itemView.findNavController().navigate(MainFragmentDirections.actionHomeFragmentToProspectFragment())
         }
         }
 
