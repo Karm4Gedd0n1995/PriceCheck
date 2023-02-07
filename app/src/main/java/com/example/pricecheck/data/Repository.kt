@@ -7,25 +7,25 @@ class Repository {
 
     fun loadProspects(): List<Prospect> {
         return listOf(
-            Prospect(
+            Prospect(1,
                 "Rewe",
                 R.drawable.reweprospekt),
-            Prospect(
+            Prospect(2,
                 "Lidl",
                 R.drawable.lidlprospekt),
-            Prospect(
+            Prospect(3,
                 "Netto",
                 R.drawable.nettoprospekt),
-            Prospect(
+            Prospect(4,
                 "Aldi Süd",
                 R.drawable.aldis_dprospekt),
-            Prospect(
+            Prospect(5,
                 "Kaufland",
                 R.drawable.kauflandprospekt),
-            Prospect(
+            Prospect(6,
                 "Penny",
                 R.drawable.pennyprospekt),
-            Prospect(
+            Prospect(7,
                 "Edeka",
                 R.drawable.edekaprospekt),
             )

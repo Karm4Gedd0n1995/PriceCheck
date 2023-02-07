@@ -1,19 +1,24 @@
 package com.example.pricecheck.ui
 
+import android.animation.ObjectAnimator
+import android.content.Context
+import android.graphics.Color
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.core.view.isInvisible
+import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.ViewModel
-import androidx.navigation.fragment.findNavController
+import com.example.pricecheck.R
 import com.example.pricecheck.databinding.ListItemBinding
 
-class ItemFragment: Fragment() {
+class ItemFragment(): Fragment() {
 
     private val viewModel: ViewModel by viewModels()
+
+
 
     private lateinit var binding: ListItemBinding
 
@@ -30,10 +35,24 @@ class ItemFragment: Fragment() {
 
 
 
-       // binding.prospectview.setOnClickListener {
-         //   findNavController().navigate(HomeFragmentDirections.actionHomeFragmentToProspectFragment())
-       // }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     }
+
+
 }

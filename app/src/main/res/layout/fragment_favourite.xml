@@ -45,5 +45,17 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:srcCompat="@drawable/ic_baseline_event_note_24" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/favouriterecycler"
+            android:layout_width="409dp"
+            android:layout_height="619dp"
+            android:orientation="vertical"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            app:layout_constraintBottom_toTopOf="@+id/prospectbutton3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar3"
+            tools:listitem="@layout/favourite_item" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
